@@ -1,0 +1,1305 @@
+
+Next Packet : 17-Jan-2018 12:00:29 AM.826670 (Packet Length : 216 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : 01-00-5E-7F-FF-FA 
+ |-Source Address      : D4-3D-7E-B6-48-8B 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 202 Bytes(Size of Packet)
+ |-Identification : 7407
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 0
+ |-More Fragment Field : 0
+ |-TTL : 1
+ |-Protocol : 17
+ |-Checksum : 0
+ |-Source IP : 192.168.1.41
+ |-Destination IP : 239.255.255.250
+
+UDP Header
+ |-Source Port : 63693
+ |-Destination Port : 1900
+ |-UDP Length : 182
+ |-UDP Checksum : 45715
+
+IP Header
+ 45 00 00 ca 1c ef 00 00 01 11 00 00 c0 a8 01 29          E..............) 
+ ef ff ff fa                                              .... 
+
+UDP Header
+ f8 cd 07 6c 00 b6 b2 93                                  ...l.... 
+
+Data Payload
+ 4d 2d 53 45 41 52 43 48 20 2a 20 48 54 54 50 2f          M-SEARCH * HTTP/ 
+ 31 2e 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32          1.1..HOST: 239.2 
+ 35 35 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d          55.255.250:1900. 
+ 0a 4d 41 4e 3a 20 22 73 73 64 70 3a 64 69 73 63          .MAN: "ssdp:disc 
+ 6f 76 65 72 22 0d 0a 4d 58 3a 20 31 0d 0a 53 54          over"..MX: 1..ST 
+ 3a 20 75 72 6e 3a 64 69 61 6c 2d 6d 75 6c 74 69          : urn:dial-multi 
+ 73 63 72 65 65 6e 2d 6f 72 67 3a 73 65 72 76 69          screen-org:servi 
+ 63 65 3a 64 69 61 6c 3a 31 0d 0a 55 53 45 52 2d          ce:dial:1..USER- 
+ 41 47 45 4e 54 3a 20 47 6f 6f 67 6c 65 20 43 68          AGENT: Google Ch 
+ 72 6f 6d 65 2f 36 33 2e 30 2e 33 32 33 39 2e 31          rome/63.0.3239.1 
+ 33 32 20 57 69 6e 64 6f 77 73 0d 0a 0d 0a                32 Windows.... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:29 AM.869486 (Packet Length : 90 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : D4-3D-7E-B6-48-8B 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 76 Bytes(Size of Packet)
+ |-Identification : 26886
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 1
+ |-More Fragment Field : 0
+ |-TTL : 52
+ |-Protocol : 17
+ |-Checksum : 45448
+ |-Source IP : 188.42.174.22
+ |-Destination IP : 192.168.1.41
+
+UDP Header
+ |-Source Port : 50838
+ |-Destination Port : 60508
+ |-UDP Length : 56
+ |-UDP Checksum : 60428
+
+IP Header
+ 45 00 00 4c 69 06 40 00 34 11 b1 88 bc 2a ae 16          E..Li.@.4....*.. 
+ c0 a8 01 29                                              ...) 
+
+UDP Header
+ c6 96 ec 5c 00 38 ec 0c                                  ...\.8.. 
+
+Data Payload
+ 80 c9 00 01 00 00 00 01 77 47 ed 98 59 aa 7c 04          €.......wG..Y.|. 
+ 21 c3 9f d0 d5 50 2d 8c 74 f4 61 05 86 6c cd 0e          !....P-.t.a..l.. 
+ 54 02 8f d2 b4 c1 cc f3 01 a5 b6 06 d9 46 94 ad          T............F.. 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:30 AM.320751 (Packet Length : 85 bytes) 
+
+***********************TCP Packet*************************
+
+Ethernet Header
+ |-Destination Address : D4-3D-7E-B6-48-8B 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 71 Bytes(Size of Packet)
+ |-Identification : 53273
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 1
+ |-More Fragment Field : 0
+ |-TTL : 56
+ |-Protocol : 6
+ |-Checksum : 46635
+ |-Source IP : 82.94.168.60
+ |-Destination IP : 192.168.1.41
+
+TCP Header
+ |-Source Port : 443
+ |-Destination Port : 58717
+ |-Sequence Number : 133966180
+ |-Acknowledge Number : 679674883
+ |-Header Length : 5 DWORDS or 20 BYTES
+ |-CWR Flag : 0
+ |-ECN Flag : 0
+ |-Urgent Flag : 0
+ |-Acknowledgement Flag : 1
+ |-Push Flag : 1
+ |-Reset Flag : 0
+ |-Synchronise Flag : 0
+ |-Finish Flag : 0
+ |-Window : 20
+ |-Checksum : 56553
+ |-Urgent Pointer : 0
+
+ DATA Dump 
+IP Header
+ 45 00 00 47 d0 19 40 00 38 06 b6 2b 52 5e a8 3c          E..G..@.8..+R^.< 
+ c0 a8 01 29                                              ...) 
+
+TCP Header
+ 01 bb e5 5d 07 fc 29 64 28 83 04 03 50 18 00 14          ...]..)d(...P... 
+ dc e9 00 00                                              .... 
+
+Data Payload
+ 17 03 03 00 1a 90 13 a2 d8 6b 30 0d 5b 59 74 49          .........k0.[YtI 
+ d2 ed ce aa 4f 0f 17 7f 72 1f b7 fb a4 b0 da             ....O..r...... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:30 AM.320998 (Packet Length : 89 bytes) 
+
+***********************TCP Packet*************************
+
+Ethernet Header
+ |-Destination Address : BC-C8-10-51-CD-81 
+ |-Source Address      : D4-3D-7E-B6-48-8B 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 75 Bytes(Size of Packet)
+ |-Identification : 30727
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 1
+ |-More Fragment Field : 0
+ |-TTL : 128
+ |-Protocol : 6
+ |-Checksum : 0
+ |-Source IP : 192.168.1.41
+ |-Destination IP : 82.94.168.60
+
+TCP Header
+ |-Source Port : 58717
+ |-Destination Port : 443
+ |-Sequence Number : 679674883
+ |-Acknowledge Number : 133966211
+ |-Header Length : 5 DWORDS or 20 BYTES
+ |-CWR Flag : 0
+ |-ECN Flag : 0
+ |-Urgent Flag : 0
+ |-Acknowledgement Flag : 1
+ |-Push Flag : 1
+ |-Reset Flag : 0
+ |-Synchronise Flag : 0
+ |-Finish Flag : 0
+ |-Window : 253
+ |-Checksum : 48297
+ |-Urgent Pointer : 0
+
+ DATA Dump 
+IP Header
+ 45 00 00 4b 78 07 40 00 80 06 00 00 c0 a8 01 29          E..Kx.@.€......) 
+ 52 5e a8 3c                                              R^.< 
+
+TCP Header
+ e5 5d 01 bb 28 83 04 03 07 fc 29 83 50 18 00 fd          .]..(.....).P... 
+ bc a9 00 00                                              .... 
+
+Data Payload
+ 17 03 03 00 1e 00 00 00 00 00 00 06 be 47 c3 fe          .............G.. 
+ 9a bc e4 3e 08 d7 53 a7 f8 e1 4d 30 74 b8 9a 54          ...>..S...M0t..T 
+ a4 53 46                                                 .SF 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:30 AM.334536 (Packet Length : 60 bytes) 
+
+***********************TCP Packet*************************
+
+Ethernet Header
+ |-Destination Address : D4-3D-7E-B6-48-8B 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 40 Bytes(Size of Packet)
+ |-Identification : 53274
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 1
+ |-More Fragment Field : 0
+ |-TTL : 56
+ |-Protocol : 6
+ |-Checksum : 46665
+ |-Source IP : 82.94.168.60
+ |-Destination IP : 192.168.1.41
+
+TCP Header
+ |-Source Port : 443
+ |-Destination Port : 58717
+ |-Sequence Number : 133966211
+ |-Acknowledge Number : 679674918
+ |-Header Length : 5 DWORDS or 20 BYTES
+ |-CWR Flag : 0
+ |-ECN Flag : 0
+ |-Urgent Flag : 0
+ |-Acknowledgement Flag : 1
+ |-Push Flag : 0
+ |-Reset Flag : 0
+ |-Synchronise Flag : 0
+ |-Finish Flag : 0
+ |-Window : 20
+ |-Checksum : 44563
+ |-Urgent Pointer : 0
+
+ DATA Dump 
+IP Header
+ 45 00 00 28 d0 1a 40 00 38 06 b6 49 52 5e a8 3c          E..(..@.8..IR^.< 
+ c0 a8 01 29                                              ...) 
+
+TCP Header
+ 01 bb e5 5d 07 fc 29 83 28 83 04 26 50 10 00 14          ...]..).(..&P... 
+ ae 13 00 00                                              .... 
+
+Data Payload
+ 00 00 00 00 00 00                                        ...... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:30 AM.870207 (Packet Length : 90 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : D4-3D-7E-B6-48-8B 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 76 Bytes(Size of Packet)
+ |-Identification : 27028
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 1
+ |-More Fragment Field : 0
+ |-TTL : 52
+ |-Protocol : 17
+ |-Checksum : 45306
+ |-Source IP : 188.42.174.22
+ |-Destination IP : 192.168.1.41
+
+UDP Header
+ |-Source Port : 50838
+ |-Destination Port : 60508
+ |-UDP Length : 56
+ |-UDP Checksum : 60428
+
+IP Header
+ 45 00 00 4c 69 94 40 00 34 11 b0 fa bc 2a ae 16          E..Li.@.4....*.. 
+ c0 a8 01 29                                              ...) 
+
+UDP Header
+ c6 96 ec 5c 00 38 ec 0c                                  ...\.8.. 
+
+Data Payload
+ 80 c9 00 01 00 00 00 01 77 47 ed 98 59 aa 7c 04          €.......wG..Y.|. 
+ 21 c3 9f d0 d5 50 2d 8c 74 f4 61 05 86 6c cd 0e          !....P-.t.a..l.. 
+ 54 02 8f d2 b4 c1 cc f3 01 a5 b6 06 d9 46 94 ad          T............F.. 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.195256 (Packet Length : 126 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : BC-C8-10-51-CD-81 
+ |-Source Address      : D4-3D-7E-B6-48-8B 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 112 Bytes(Size of Packet)
+ |-Identification : 9392
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 0
+ |-More Fragment Field : 0
+ |-TTL : 128
+ |-Protocol : 17
+ |-Checksum : 0
+ |-Source IP : 192.168.1.41
+ |-Destination IP : 162.254.196.83
+
+UDP Header
+ |-Source Port : 55555
+ |-Destination Port : 27019
+ |-UDP Length : 92
+ |-UDP Checksum : 10641
+
+IP Header
+ 45 00 00 70 24 b0 00 00 80 11 00 00 c0 a8 01 29          E..p$...€......) 
+ a2 fe c4 53                                              ...S 
+
+UDP Header
+ d9 03 69 8b 00 5c 29 91                                  ..i..\). 
+
+Data Payload
+ 56 53 30 31 30 00 06 04 02 00 00 00 96 bc c8 00          VS010........... 
+ 2a 08 00 00 bc 03 00 00 01 00 00 00 2a 08 00 00          *...........*... 
+ 30 00 00 00 22 4e dc 4f c9 1d 08 5e d3 a6 b0 73          0..."N.O...^...s 
+ 95 24 df 0f 91 c5 cc 42 e7 3b 27 e6 46 01 5b 38          .$.....B.;'.F.[8 
+ e0 ac d4 ce c0 c2 30 c7 f5 40 ba 7b 85 c5 84 30          ......0..@.{...0 
+ 08 66 23 5c                                              .f#\ 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.588737 (Packet Length : 342 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : 01-00-5E-7F-FF-FA 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 328 Bytes(Size of Packet)
+ |-Identification : 57005
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 0
+ |-More Fragment Field : 0
+ |-TTL : 4
+ |-Protocol : 17
+ |-Checksum : 9556
+ |-Source IP : 192.168.1.1
+ |-Destination IP : 239.255.255.250
+
+UDP Header
+ |-Source Port : 1901
+ |-Destination Port : 1900
+ |-UDP Length : 308
+ |-UDP Checksum : 53353
+
+IP Header
+ 45 00 01 48 de ad 00 00 04 11 25 54 c0 a8 01 01          E..H......%T.... 
+ ef ff ff fa                                              .... 
+
+UDP Header
+ 07 6d 07 6c 01 34 d0 69                                  .m.l.4.i 
+
+Data Payload
+ 4e 4f 54 49 46 59 20 2a 20 48 54 54 50 2f 31 2e          NOTIFY * HTTP/1. 
+ 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35          1..HOST: 239.255 
+ 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 43          .255.250:1900..C 
+ 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61          ache-Control: ma 
+ 78 2d 61 67 65 3d 31 39 30 30 0d 0a 4c 6f 63 61          x-age=1900..Loca 
+ 74 69 6f 6e 3a 20 68 74 74 70 3a 2f 2f 31 39 32          tion: http://192 
+ 2e 31 36 38 2e 31 2e 31 3a 38 30 2f 52 6f 6f 74          .168.1.1:80/Root 
+ 44 65 76 69 63 65 2e 78 6d 6c 0d 0a 4e 54 3a 20          Device.xml..NT:  
+ 75 75 69 64 3a 75 70 6e 70 2d 49 6e 74 65 72 6e          uuid:upnp-Intern 
+ 65 74 47 61 74 65 77 61 79 44 65 76 69 63 65 2d          etGatewayDevice- 
+ 31 5f 30 2d 62 63 63 38 31 30 35 31 63 64 38 31          1_0-bcc81051cd81 
+ 0d 0a 55 53 4e 3a 20 75 75 69 64 3a 75 70 6e 70          ..USN: uuid:upnp 
+ 2d 49 6e 74 65 72 6e 65 74 47 61 74 65 77 61 79          -InternetGateway 
+ 44 65 76 69 63 65 2d 31 5f 30 2d 62 63 63 38 31          Device-1_0-bcc81 
+ 30 35 31 63 64 38 31 0d 0a 4e 54 53 3a 20 73 73          051cd81..NTS: ss 
+ 64 70 3a 61 6c 69 76 65 0d 0a 53 65 72 76 65 72          dp:alive..Server 
+ 3a 20 55 50 6e 50 2f 31 2e 30 20 55 50 6e 50 2f          : UPnP/1.0 UPnP/ 
+ 31 2e 30 20 55 50 6e 50 2d 44 65 76 69 63 65 2d          1.0 UPnP-Device- 
+ 48 6f 73 74 2f 31 2e 30 0d 0a 0d 0a                      Host/1.0.... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.598482 (Packet Length : 398 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : 01-00-5E-7F-FF-FA 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 384 Bytes(Size of Packet)
+ |-Identification : 57005
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 0
+ |-More Fragment Field : 0
+ |-TTL : 4
+ |-Protocol : 17
+ |-Checksum : 9500
+ |-Source IP : 192.168.1.1
+ |-Destination IP : 239.255.255.250
+
+UDP Header
+ |-Source Port : 1901
+ |-Destination Port : 1900
+ |-UDP Length : 364
+ |-UDP Checksum : 36935
+
+IP Header
+ 45 00 01 80 de ad 00 00 04 11 25 1c c0 a8 01 01          E..€......%..... 
+ ef ff ff fa                                              .... 
+
+UDP Header
+ 07 6d 07 6c 01 6c 90 47                                  .m.l.l.G 
+
+Data Payload
+ 4e 4f 54 49 46 59 20 2a 20 48 54 54 50 2f 31 2e          NOTIFY * HTTP/1. 
+ 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35          1..HOST: 239.255 
+ 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 43          .255.250:1900..C 
+ 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61          ache-Control: ma 
+ 78 2d 61 67 65 3d 31 39 30 30 0d 0a 4c 6f 63 61          x-age=1900..Loca 
+ 74 69 6f 6e 3a 20 68 74 74 70 3a 2f 2f 31 39 32          tion: http://192 
+ 2e 31 36 38 2e 31 2e 31 3a 38 30 2f 52 6f 6f 74          .168.1.1:80/Root 
+ 44 65 76 69 63 65 2e 78 6d 6c 0d 0a 4e 54 3a 20          Device.xml..NT:  
+ 75 72 6e 3a 73 63 68 65 6d 61 73 2d 75 70 6e 70          urn:schemas-upnp 
+ 2d 6f 72 67 3a 64 65 76 69 63 65 3a 49 6e 74 65          -org:device:Inte 
+ 72 6e 65 74 47 61 74 65 77 61 79 44 65 76 69 63          rnetGatewayDevic 
+ 65 3a 31 0d 0a 55 53 4e 3a 20 75 75 69 64 3a 75          e:1..USN: uuid:u 
+ 70 6e 70 2d 49 6e 74 65 72 6e 65 74 47 61 74 65          pnp-InternetGate 
+ 77 61 79 44 65 76 69 63 65 2d 31 5f 30 2d 62 63          wayDevice-1_0-bc 
+ 63 38 31 30 35 31 63 64 38 31 3a 3a 75 72 6e 3a          c81051cd81::urn: 
+ 73 63 68 65 6d 61 73 2d 75 70 6e 70 2d 6f 72 67          schemas-upnp-org 
+ 3a 64 65 76 69 63 65 3a 49 6e 74 65 72 6e 65 74          :device:Internet 
+ 47 61 74 65 77 61 79 44 65 76 69 63 65 3a 31 0d          GatewayDevice:1. 
+ 0a 4e 54 53 3a 20 73 73 64 70 3a 61 6c 69 76 65          .NTS: ssdp:alive 
+ 0d 0a 53 65 72 76 65 72 3a 20 55 50 6e 50 2f 31          ..Server: UPnP/1 
+ 2e 30 20 55 50 6e 50 2f 31 2e 30 20 55 50 6e 50          .0 UPnP/1.0 UPnP 
+ 2d 44 65 76 69 63 65 2d 48 6f 73 74 2f 31 2e 30          -Device-Host/1.0 
+ 0d 0a 0d 0a                                              .... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.608586 (Packet Length : 326 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : 01-00-5E-7F-FF-FA 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 312 Bytes(Size of Packet)
+ |-Identification : 57005
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 0
+ |-More Fragment Field : 0
+ |-TTL : 4
+ |-Protocol : 17
+ |-Checksum : 9572
+ |-Source IP : 192.168.1.1
+ |-Destination IP : 239.255.255.250
+
+UDP Header
+ |-Source Port : 1901
+ |-Destination Port : 1900
+ |-UDP Length : 292
+ |-UDP Checksum : 38829
+
+IP Header
+ 45 00 01 38 de ad 00 00 04 11 25 64 c0 a8 01 01          E..8......%d.... 
+ ef ff ff fa                                              .... 
+
+UDP Header
+ 07 6d 07 6c 01 24 97 ad                                  .m.l.$.. 
+
+Data Payload
+ 4e 4f 54 49 46 59 20 2a 20 48 54 54 50 2f 31 2e          NOTIFY * HTTP/1. 
+ 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35          1..HOST: 239.255 
+ 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 43          .255.250:1900..C 
+ 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61          ache-Control: ma 
+ 78 2d 61 67 65 3d 31 39 30 30 0d 0a 4c 6f 63 61          x-age=1900..Loca 
+ 74 69 6f 6e 3a 20 68 74 74 70 3a 2f 2f 31 39 32          tion: http://192 
+ 2e 31 36 38 2e 31 2e 31 3a 38 30 2f 52 6f 6f 74          .168.1.1:80/Root 
+ 44 65 76 69 63 65 2e 78 6d 6c 0d 0a 4e 54 3a 20          Device.xml..NT:  
+ 75 70 6e 70 3a 72 6f 6f 74 64 65 76 69 63 65 0d          upnp:rootdevice. 
+ 0a 55 53 4e 3a 20 75 75 69 64 3a 75 70 6e 70 2d          .USN: uuid:upnp- 
+ 49 6e 74 65 72 6e 65 74 47 61 74 65 77 61 79 44          InternetGatewayD 
+ 65 76 69 63 65 2d 31 5f 30 2d 62 63 63 38 31 30          evice-1_0-bcc810 
+ 35 31 63 64 38 31 3a 3a 75 70 6e 70 3a 72 6f 6f          51cd81::upnp:roo 
+ 74 64 65 76 69 63 65 0d 0a 4e 54 53 3a 20 73 73          tdevice..NTS: ss 
+ 64 70 3a 61 6c 69 76 65 0d 0a 53 65 72 76 65 72          dp:alive..Server 
+ 3a 20 55 50 6e 50 2f 31 2e 30 20 55 50 6e 50 2f          : UPnP/1.0 UPnP/ 
+ 31 2e 30 20 55 50 6e 50 2d 44 65 76 69 63 65 2d          1.0 UPnP-Device- 
+ 48 6f 73 74 2f 31 2e 30 0d 0a 0d 0a                      Host/1.0.... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.610456 (Packet Length : 78 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : D4-3D-7E-B6-48-8B 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 64 Bytes(Size of Packet)
+ |-Identification : 7275
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 1
+ |-More Fragment Field : 0
+ |-TTL : 122
+ |-Protocol : 17
+ |-Checksum : 47902
+ |-Source IP : 162.254.196.83
+ |-Destination IP : 192.168.1.41
+
+UDP Header
+ |-Source Port : 27019
+ |-Destination Port : 55555
+ |-UDP Length : 44
+ |-UDP Checksum : 31637
+
+IP Header
+ 45 00 00 40 1c 6b 40 00 7a 11 bb 1e a2 fe c4 53          E..@.k@.z......S 
+ c0 a8 01 29                                              ...) 
+
+UDP Header
+ 69 8b d9 03 00 2c 7b 95                                  i....,{. 
+
+Data Payload
+ 56 53 30 31 00 00 07 04 96 bc c8 00 02 00 00 00          VS01............ 
+ 00 00 00 00 2a 08 00 00 00 00 00 00 00 00 00 00          ....*........... 
+ 00 00 00 00                                              .... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.619938 (Packet Length : 318 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : 01-00-5E-7F-FF-FA 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 304 Bytes(Size of Packet)
+ |-Identification : 57005
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 0
+ |-More Fragment Field : 0
+ |-TTL : 4
+ |-Protocol : 17
+ |-Checksum : 9580
+ |-Source IP : 192.168.1.1
+ |-Destination IP : 239.255.255.250
+
+UDP Header
+ |-Source Port : 1901
+ |-Destination Port : 1900
+ |-UDP Length : 284
+ |-UDP Checksum : 2772
+
+IP Header
+ 45 00 01 30 de ad 00 00 04 11 25 6c c0 a8 01 01          E..0......%l.... 
+ ef ff ff fa                                              .... 
+
+UDP Header
+ 07 6d 07 6c 01 1c 0a d4                                  .m.l.... 
+
+Data Payload
+ 4e 4f 54 49 46 59 20 2a 20 48 54 54 50 2f 31 2e          NOTIFY * HTTP/1. 
+ 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35          1..HOST: 239.255 
+ 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 43          .255.250:1900..C 
+ 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61          ache-Control: ma 
+ 78 2d 61 67 65 3d 31 39 30 30 0d 0a 4c 6f 63 61          x-age=1900..Loca 
+ 74 69 6f 6e 3a 20 68 74 74 70 3a 2f 2f 31 39 32          tion: http://192 
+ 2e 31 36 38 2e 31 2e 31 3a 38 30 2f 52 6f 6f 74          .168.1.1:80/Root 
+ 44 65 76 69 63 65 2e 78 6d 6c 0d 0a 4e 54 3a 20          Device.xml..NT:  
+ 75 75 69 64 3a 75 70 6e 70 2d 57 41 4e 44 65 76          uuid:upnp-WANDev 
+ 69 63 65 2d 31 5f 30 2d 62 63 63 38 31 30 35 31          ice-1_0-bcc81051 
+ 63 64 38 31 0d 0a 55 53 4e 3a 20 75 75 69 64 3a          cd81..USN: uuid: 
+ 75 70 6e 70 2d 57 41 4e 44 65 76 69 63 65 2d 31          upnp-WANDevice-1 
+ 5f 30 2d 62 63 63 38 31 30 35 31 63 64 38 31 0d          _0-bcc81051cd81. 
+ 0a 4e 54 53 3a 20 73 73 64 70 3a 61 6c 69 76 65          .NTS: ssdp:alive 
+ 0d 0a 53 65 72 76 65 72 3a 20 55 50 6e 50 2f 31          ..Server: UPnP/1 
+ 2e 30 20 55 50 6e 50 2f 31 2e 30 20 55 50 6e 50          .0 UPnP/1.0 UPnP 
+ 2d 44 65 76 69 63 65 2d 48 6f 73 74 2f 31 2e 30          -Device-Host/1.0 
+ 0d 0a 0d 0a                                              .... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.628652 (Packet Length : 362 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : 01-00-5E-7F-FF-FA 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 348 Bytes(Size of Packet)
+ |-Identification : 57005
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 0
+ |-More Fragment Field : 0
+ |-TTL : 4
+ |-Protocol : 17
+ |-Checksum : 9536
+ |-Source IP : 192.168.1.1
+ |-Destination IP : 239.255.255.250
+
+UDP Header
+ |-Source Port : 1901
+ |-Destination Port : 1900
+ |-UDP Length : 328
+ |-UDP Checksum : 26216
+
+IP Header
+ 45 00 01 5c de ad 00 00 04 11 25 40 c0 a8 01 01          E..\......%@.... 
+ ef ff ff fa                                              .... 
+
+UDP Header
+ 07 6d 07 6c 01 48 66 68                                  .m.l.Hfh 
+
+Data Payload
+ 4e 4f 54 49 46 59 20 2a 20 48 54 54 50 2f 31 2e          NOTIFY * HTTP/1. 
+ 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35          1..HOST: 239.255 
+ 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 43          .255.250:1900..C 
+ 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61          ache-Control: ma 
+ 78 2d 61 67 65 3d 31 39 30 30 0d 0a 4c 6f 63 61          x-age=1900..Loca 
+ 74 69 6f 6e 3a 20 68 74 74 70 3a 2f 2f 31 39 32          tion: http://192 
+ 2e 31 36 38 2e 31 2e 31 3a 38 30 2f 52 6f 6f 74          .168.1.1:80/Root 
+ 44 65 76 69 63 65 2e 78 6d 6c 0d 0a 4e 54 3a 20          Device.xml..NT:  
+ 75 72 6e 3a 73 63 68 65 6d 61 73 2d 75 70 6e 70          urn:schemas-upnp 
+ 2d 6f 72 67 3a 64 65 76 69 63 65 3a 57 41 4e 44          -org:device:WAND 
+ 65 76 69 63 65 3a 31 0d 0a 55 53 4e 3a 20 75 75          evice:1..USN: uu 
+ 69 64 3a 75 70 6e 70 2d 57 41 4e 44 65 76 69 63          id:upnp-WANDevic 
+ 65 2d 31 5f 30 2d 62 63 63 38 31 30 35 31 63 64          e-1_0-bcc81051cd 
+ 38 31 3a 3a 75 72 6e 3a 73 63 68 65 6d 61 73 2d          81::urn:schemas- 
+ 75 70 6e 70 2d 6f 72 67 3a 64 65 76 69 63 65 3a          upnp-org:device: 
+ 57 41 4e 44 65 76 69 63 65 3a 31 0d 0a 4e 54 53          WANDevice:1..NTS 
+ 3a 20 73 73 64 70 3a 61 6c 69 76 65 0d 0a 53 65          : ssdp:alive..Se 
+ 72 76 65 72 3a 20 55 50 6e 50 2f 31 2e 30 20 55          rver: UPnP/1.0 U 
+ 50 6e 50 2f 31 2e 30 20 55 50 6e 50 2d 44 65 76          PnP/1.0 UPnP-Dev 
+ 69 63 65 2d 48 6f 73 74 2f 31 2e 30 0d 0a 0d 0a          ice-Host/1.0.... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.638465 (Packet Length : 338 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : 01-00-5E-7F-FF-FA 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 324 Bytes(Size of Packet)
+ |-Identification : 57005
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 0
+ |-More Fragment Field : 0
+ |-TTL : 4
+ |-Protocol : 17
+ |-Checksum : 9560
+ |-Source IP : 192.168.1.1
+ |-Destination IP : 239.255.255.250
+
+UDP Header
+ |-Source Port : 1901
+ |-Destination Port : 1900
+ |-UDP Length : 304
+ |-UDP Checksum : 63127
+
+IP Header
+ 45 00 01 44 de ad 00 00 04 11 25 58 c0 a8 01 01          E..D......%X.... 
+ ef ff ff fa                                              .... 
+
+UDP Header
+ 07 6d 07 6c 01 30 f6 97                                  .m.l.0.. 
+
+Data Payload
+ 4e 4f 54 49 46 59 20 2a 20 48 54 54 50 2f 31 2e          NOTIFY * HTTP/1. 
+ 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35          1..HOST: 239.255 
+ 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 43          .255.250:1900..C 
+ 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61          ache-Control: ma 
+ 78 2d 61 67 65 3d 31 39 30 30 0d 0a 4c 6f 63 61          x-age=1900..Loca 
+ 74 69 6f 6e 3a 20 68 74 74 70 3a 2f 2f 31 39 32          tion: http://192 
+ 2e 31 36 38 2e 31 2e 31 3a 38 30 2f 52 6f 6f 74          .168.1.1:80/Root 
+ 44 65 76 69 63 65 2e 78 6d 6c 0d 0a 4e 54 3a 20          Device.xml..NT:  
+ 75 75 69 64 3a 75 70 6e 70 2d 57 41 4e 43 6f 6e          uuid:upnp-WANCon 
+ 6e 65 63 74 69 6f 6e 44 65 76 69 63 65 2d 31 5f          nectionDevice-1_ 
+ 30 2d 62 63 63 38 31 30 35 31 63 64 38 31 0d 0a          0-bcc81051cd81.. 
+ 55 53 4e 3a 20 75 75 69 64 3a 75 70 6e 70 2d 57          USN: uuid:upnp-W 
+ 41 4e 43 6f 6e 6e 65 63 74 69 6f 6e 44 65 76 69          ANConnectionDevi 
+ 63 65 2d 31 5f 30 2d 62 63 63 38 31 30 35 31 63          ce-1_0-bcc81051c 
+ 64 38 31 0d 0a 4e 54 53 3a 20 73 73 64 70 3a 61          d81..NTS: ssdp:a 
+ 6c 69 76 65 0d 0a 53 65 72 76 65 72 3a 20 55 50          live..Server: UP 
+ 6e 50 2f 31 2e 30 20 55 50 6e 50 2f 31 2e 30 20          nP/1.0 UPnP/1.0  
+ 55 50 6e 50 2d 44 65 76 69 63 65 2d 48 6f 73 74          UPnP-Device-Host 
+ 2f 31 2e 30 0d 0a 0d 0a                                  /1.0.... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.650486 (Packet Length : 392 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : 01-00-5E-7F-FF-FA 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 378 Bytes(Size of Packet)
+ |-Identification : 57005
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 0
+ |-More Fragment Field : 0
+ |-TTL : 4
+ |-Protocol : 17
+ |-Checksum : 9506
+ |-Source IP : 192.168.1.1
+ |-Destination IP : 239.255.255.250
+
+UDP Header
+ |-Source Port : 1901
+ |-Destination Port : 1900
+ |-UDP Length : 358
+ |-UDP Checksum : 6971
+
+IP Header
+ 45 00 01 7a de ad 00 00 04 11 25 22 c0 a8 01 01          E..z......%".... 
+ ef ff ff fa                                              .... 
+
+UDP Header
+ 07 6d 07 6c 01 66 1b 3b                                  .m.l.f.; 
+
+Data Payload
+ 4e 4f 54 49 46 59 20 2a 20 48 54 54 50 2f 31 2e          NOTIFY * HTTP/1. 
+ 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35          1..HOST: 239.255 
+ 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 43          .255.250:1900..C 
+ 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61          ache-Control: ma 
+ 78 2d 61 67 65 3d 31 39 30 30 0d 0a 4c 6f 63 61          x-age=1900..Loca 
+ 74 69 6f 6e 3a 20 68 74 74 70 3a 2f 2f 31 39 32          tion: http://192 
+ 2e 31 36 38 2e 31 2e 31 3a 38 30 2f 52 6f 6f 74          .168.1.1:80/Root 
+ 44 65 76 69 63 65 2e 78 6d 6c 0d 0a 4e 54 3a 20          Device.xml..NT:  
+ 75 72 6e 3a 73 63 68 65 6d 61 73 2d 75 70 6e 70          urn:schemas-upnp 
+ 2d 6f 72 67 3a 64 65 76 69 63 65 3a 57 41 4e 43          -org:device:WANC 
+ 6f 6e 6e 65 63 74 69 6f 6e 44 65 76 69 63 65 3a          onnectionDevice: 
+ 31 0d 0a 55 53 4e 3a 20 75 75 69 64 3a 75 70 6e          1..USN: uuid:upn 
+ 70 2d 57 41 4e 43 6f 6e 6e 65 63 74 69 6f 6e 44          p-WANConnectionD 
+ 65 76 69 63 65 2d 31 5f 30 2d 62 63 63 38 31 30          evice-1_0-bcc810 
+ 35 31 63 64 38 31 3a 3a 75 72 6e 3a 73 63 68 65          51cd81::urn:sche 
+ 6d 61 73 2d 75 70 6e 70 2d 6f 72 67 3a 64 65 76          mas-upnp-org:dev 
+ 69 63 65 3a 57 41 4e 43 6f 6e 6e 65 63 74 69 6f          ice:WANConnectio 
+ 6e 44 65 76 69 63 65 3a 31 0d 0a 4e 54 53 3a 20          nDevice:1..NTS:  
+ 73 73 64 70 3a 61 6c 69 76 65 0d 0a 53 65 72 76          ssdp:alive..Serv 
+ 65 72 3a 20 55 50 6e 50 2f 31 2e 30 20 55 50 6e          er: UPnP/1.0 UPn 
+ 50 2f 31 2e 30 20 55 50 6e 50 2d 44 65 76 69 63          P/1.0 UPnP-Devic 
+ 65 2d 48 6f 73 74 2f 31 2e 30 0d 0a 0d 0a                e-Host/1.0.... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.658510 (Packet Length : 390 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : 01-00-5E-7F-FF-FA 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 376 Bytes(Size of Packet)
+ |-Identification : 57005
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 0
+ |-More Fragment Field : 0
+ |-TTL : 4
+ |-Protocol : 17
+ |-Checksum : 9508
+ |-Source IP : 192.168.1.1
+ |-Destination IP : 239.255.255.250
+
+UDP Header
+ |-Source Port : 1901
+ |-Destination Port : 1900
+ |-UDP Length : 356
+ |-UDP Checksum : 43407
+
+IP Header
+ 45 00 01 78 de ad 00 00 04 11 25 24 c0 a8 01 01          E..x......%$.... 
+ ef ff ff fa                                              .... 
+
+UDP Header
+ 07 6d 07 6c 01 64 a9 8f                                  .m.l.d.. 
+
+Data Payload
+ 4e 4f 54 49 46 59 20 2a 20 48 54 54 50 2f 31 2e          NOTIFY * HTTP/1. 
+ 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35          1..HOST: 239.255 
+ 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 43          .255.250:1900..C 
+ 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61          ache-Control: ma 
+ 78 2d 61 67 65 3d 31 39 30 30 0d 0a 4c 6f 63 61          x-age=1900..Loca 
+ 74 69 6f 6e 3a 20 68 74 74 70 3a 2f 2f 31 39 32          tion: http://192 
+ 2e 31 36 38 2e 31 2e 31 3a 38 30 2f 52 6f 6f 74          .168.1.1:80/Root 
+ 44 65 76 69 63 65 2e 78 6d 6c 0d 0a 4e 54 3a 20          Device.xml..NT:  
+ 75 72 6e 3a 73 63 68 65 6d 61 73 2d 75 70 6e 70          urn:schemas-upnp 
+ 2d 6f 72 67 3a 73 65 72 76 69 63 65 3a 4c 61 79          -org:service:Lay 
+ 65 72 33 46 6f 72 77 61 72 64 69 6e 67 3a 31 0d          er3Forwarding:1. 
+ 0a 55 53 4e 3a 20 75 75 69 64 3a 75 70 6e 70 2d          .USN: uuid:upnp- 
+ 49 6e 74 65 72 6e 65 74 47 61 74 65 77 61 79 44          InternetGatewayD 
+ 65 76 69 63 65 2d 31 5f 30 2d 62 63 63 38 31 30          evice-1_0-bcc810 
+ 35 31 63 64 38 31 3a 3a 75 72 6e 3a 73 63 68 65          51cd81::urn:sche 
+ 6d 61 73 2d 75 70 6e 70 2d 6f 72 67 3a 73 65 72          mas-upnp-org:ser 
+ 76 69 63 65 3a 4c 61 79 65 72 33 46 6f 72 77 61          vice:Layer3Forwa 
+ 72 64 69 6e 67 3a 31 0d 0a 4e 54 53 3a 20 73 73          rding:1..NTS: ss 
+ 64 70 3a 61 6c 69 76 65 0d 0a 53 65 72 76 65 72          dp:alive..Server 
+ 3a 20 55 50 6e 50 2f 31 2e 30 20 55 50 6e 50 2f          : UPnP/1.0 UPnP/ 
+ 31 2e 30 20 55 50 6e 50 2d 44 65 76 69 63 65 2d          1.0 UPnP-Device- 
+ 48 6f 73 74 2f 31 2e 30 0d 0a 0d 0a                      Host/1.0.... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.669545 (Packet Length : 394 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : 01-00-5E-7F-FF-FA 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 380 Bytes(Size of Packet)
+ |-Identification : 57005
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 0
+ |-More Fragment Field : 0
+ |-TTL : 4
+ |-Protocol : 17
+ |-Checksum : 9504
+ |-Source IP : 192.168.1.1
+ |-Destination IP : 239.255.255.250
+
+UDP Header
+ |-Source Port : 1901
+ |-Destination Port : 1900
+ |-UDP Length : 360
+ |-UDP Checksum : 25372
+
+IP Header
+ 45 00 01 7c de ad 00 00 04 11 25 20 c0 a8 01 01          E..|......% .... 
+ ef ff ff fa                                              .... 
+
+UDP Header
+ 07 6d 07 6c 01 68 63 1c                                  .m.l.hc. 
+
+Data Payload
+ 4e 4f 54 49 46 59 20 2a 20 48 54 54 50 2f 31 2e          NOTIFY * HTTP/1. 
+ 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35          1..HOST: 239.255 
+ 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 43          .255.250:1900..C 
+ 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61          ache-Control: ma 
+ 78 2d 61 67 65 3d 31 39 30 30 0d 0a 4c 6f 63 61          x-age=1900..Loca 
+ 74 69 6f 6e 3a 20 68 74 74 70 3a 2f 2f 31 39 32          tion: http://192 
+ 2e 31 36 38 2e 31 2e 31 3a 38 30 2f 52 6f 6f 74          .168.1.1:80/Root 
+ 44 65 76 69 63 65 2e 78 6d 6c 0d 0a 4e 54 3a 20          Device.xml..NT:  
+ 75 72 6e 3a 73 63 68 65 6d 61 73 2d 75 70 6e 70          urn:schemas-upnp 
+ 2d 6f 72 67 3a 73 65 72 76 69 63 65 3a 57 41 4e          -org:service:WAN 
+ 43 6f 6d 6d 6f 6e 49 6e 74 65 72 66 61 63 65 43          CommonInterfaceC 
+ 6f 6e 66 69 67 3a 31 0d 0a 55 53 4e 3a 20 75 75          onfig:1..USN: uu 
+ 69 64 3a 75 70 6e 70 2d 57 41 4e 44 65 76 69 63          id:upnp-WANDevic 
+ 65 2d 31 5f 30 2d 62 63 63 38 31 30 35 31 63 64          e-1_0-bcc81051cd 
+ 38 31 3a 3a 75 72 6e 3a 73 63 68 65 6d 61 73 2d          81::urn:schemas- 
+ 75 70 6e 70 2d 6f 72 67 3a 73 65 72 76 69 63 65          upnp-org:service 
+ 3a 57 41 4e 43 6f 6d 6d 6f 6e 49 6e 74 65 72 66          :WANCommonInterf 
+ 61 63 65 43 6f 6e 66 69 67 3a 31 0d 0a 4e 54 53          aceConfig:1..NTS 
+ 3a 20 73 73 64 70 3a 61 6c 69 76 65 0d 0a 53 65          : ssdp:alive..Se 
+ 72 76 65 72 3a 20 55 50 6e 50 2f 31 2e 30 20 55          rver: UPnP/1.0 U 
+ 50 6e 50 2f 31 2e 30 20 55 50 6e 50 2d 44 65 76          PnP/1.0 UPnP-Dev 
+ 69 63 65 2d 48 6f 73 74 2f 31 2e 30 0d 0a 0d 0a          ice-Host/1.0.... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.679341 (Packet Length : 386 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : 01-00-5E-7F-FF-FA 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 372 Bytes(Size of Packet)
+ |-Identification : 57005
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 0
+ |-More Fragment Field : 0
+ |-TTL : 4
+ |-Protocol : 17
+ |-Checksum : 9512
+ |-Source IP : 192.168.1.1
+ |-Destination IP : 239.255.255.250
+
+UDP Header
+ |-Source Port : 1901
+ |-Destination Port : 1900
+ |-UDP Length : 352
+ |-UDP Checksum : 35143
+
+IP Header
+ 45 00 01 74 de ad 00 00 04 11 25 28 c0 a8 01 01          E..t......%(.... 
+ ef ff ff fa                                              .... 
+
+UDP Header
+ 07 6d 07 6c 01 60 89 47                                  .m.l.`.G 
+
+Data Payload
+ 4e 4f 54 49 46 59 20 2a 20 48 54 54 50 2f 31 2e          NOTIFY * HTTP/1. 
+ 31 0d 0a 48 4f 53 54 3a 20 32 33 39 2e 32 35 35          1..HOST: 239.255 
+ 2e 32 35 35 2e 32 35 30 3a 31 39 30 30 0d 0a 43          .255.250:1900..C 
+ 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 6d 61          ache-Control: ma 
+ 78 2d 61 67 65 3d 31 39 30 30 0d 0a 4c 6f 63 61          x-age=1900..Loca 
+ 74 69 6f 6e 3a 20 68 74 74 70 3a 2f 2f 31 39 32          tion: http://192 
+ 2e 31 36 38 2e 31 2e 31 3a 38 30 2f 52 6f 6f 74          .168.1.1:80/Root 
+ 44 65 76 69 63 65 2e 78 6d 6c 0d 0a 4e 54 3a 20          Device.xml..NT:  
+ 75 72 6e 3a 73 63 68 65 6d 61 73 2d 75 70 6e 70          urn:schemas-upnp 
+ 2d 6f 72 67 3a 73 65 72 76 69 63 65 3a 57 41 4e          -org:service:WAN 
+ 49 50 43 6f 6e 6e 65 63 74 69 6f 6e 3a 31 0d 0a          IPConnection:1.. 
+ 55 53 4e 3a 20 75 75 69 64 3a 75 70 6e 70 2d 57          USN: uuid:upnp-W 
+ 41 4e 43 6f 6e 6e 65 63 74 69 6f 6e 44 65 76 69          ANConnectionDevi 
+ 63 65 2d 31 5f 30 2d 62 63 63 38 31 30 35 31 63          ce-1_0-bcc81051c 
+ 64 38 31 3a 3a 75 72 6e 3a 73 63 68 65 6d 61 73          d81::urn:schemas 
+ 2d 75 70 6e 70 2d 6f 72 67 3a 73 65 72 76 69 63          -upnp-org:servic 
+ 65 3a 57 41 4e 49 50 43 6f 6e 6e 65 63 74 69 6f          e:WANIPConnectio 
+ 6e 3a 31 0d 0a 4e 54 53 3a 20 73 73 64 70 3a 61          n:1..NTS: ssdp:a 
+ 6c 69 76 65 0d 0a 53 65 72 76 65 72 3a 20 55 50          live..Server: UP 
+ 6e 50 2f 31 2e 30 20 55 50 6e 50 2f 31 2e 30 20          nP/1.0 UPnP/1.0  
+ 55 50 6e 50 2d 44 65 76 69 63 65 2d 48 6f 73 74          UPnP-Device-Host 
+ 2f 31 2e 30 0d 0a 0d 0a                                  /1.0.... 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.869746 (Packet Length : 90 bytes) 
+
+***********************UDP Packet*************************
+
+Ethernet Header
+ |-Destination Address : D4-3D-7E-B6-48-8B 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 76 Bytes(Size of Packet)
+ |-Identification : 27180
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 1
+ |-More Fragment Field : 0
+ |-TTL : 52
+ |-Protocol : 17
+ |-Checksum : 45154
+ |-Source IP : 188.42.174.22
+ |-Destination IP : 192.168.1.41
+
+UDP Header
+ |-Source Port : 50838
+ |-Destination Port : 60508
+ |-UDP Length : 56
+ |-UDP Checksum : 60428
+
+IP Header
+ 45 00 00 4c 6a 2c 40 00 34 11 b0 62 bc 2a ae 16          E..Lj,@.4..b.*.. 
+ c0 a8 01 29                                              ...) 
+
+UDP Header
+ c6 96 ec 5c 00 38 ec 0c                                  ...\.8.. 
+
+Data Payload
+ 80 c9 00 01 00 00 00 01 77 47 ed 98 59 aa 7c 04          €.......wG..Y.|. 
+ 21 c3 9f d0 d5 50 2d 8c 74 f4 61 05 86 6c cd 0e          !....P-.t.a..l.. 
+ 54 02 8f d2 b4 c1 cc f3 01 a5 b6 06 d9 46 94 ad          T............F.. 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.910805 (Packet Length : 510 bytes) 
+
+***********************TCP Packet*************************
+
+Ethernet Header
+ |-Destination Address : BC-C8-10-51-CD-81 
+ |-Source Address      : D4-3D-7E-B6-48-8B 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 496 Bytes(Size of Packet)
+ |-Identification : 5283
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 1
+ |-More Fragment Field : 0
+ |-TTL : 128
+ |-Protocol : 6
+ |-Checksum : 0
+ |-Source IP : 192.168.1.41
+ |-Destination IP : 145.58.28.175
+
+TCP Header
+ |-Source Port : 61664
+ |-Destination Port : 443
+ |-Sequence Number : 100831548
+ |-Acknowledge Number : 1815270533
+ |-Header Length : 5 DWORDS or 20 BYTES
+ |-CWR Flag : 0
+ |-ECN Flag : 0
+ |-Urgent Flag : 0
+ |-Acknowledgement Flag : 1
+ |-Push Flag : 1
+ |-Reset Flag : 0
+ |-Synchronise Flag : 0
+ |-Finish Flag : 0
+ |-Window : 251
+ |-Checksum : 29085
+ |-Urgent Pointer : 0
+
+ DATA Dump 
+IP Header
+ 45 00 01 f0 14 a3 40 00 80 06 00 00 c0 a8 01 29          E.....@.€......) 
+ 91 3a 1c af                                              .:.. 
+
+TCP Header
+ f0 e0 01 bb 06 02 91 3c 6c 32 d4 85 50 18 00 fb          .......<l2..P... 
+ 71 9d 00 00                                              q... 
+
+Data Payload
+ 17 03 03 01 c3 00 00 00 00 00 00 00 48 e5 b2 71          ............H..q 
+ 8a 83 25 85 bc 04 c7 42 a6 d2 9f 7e 80 a9 f2 f1          ..%....B...~€... 
+ 3e d7 e4 aa 82 42 3a 74 8b e0 50 23 81 87 3f 50          >....B:t..P#..?P 
+ 8f 38 81 ad 61 bd ee f9 5d e4 e1 5a 24 28 74 c4          .8..a...]..Z$(t. 
+ a9 ec 94 0a 19 74 0c d6 b3 9f 47 87 c4 50 72 77          .....t....G..Prw 
+ 08 6a 71 da e2 16 64 52 ca d4 1c ae a7 ba eb 86          .jq...dR........ 
+ 6f fd db b0 7b 8e 5a c4 2c 29 04 5c 88 b5 bf 0d          o...{.Z.,).\.... 
+ 8e 5c fb 34 1d 58 70 a0 fc 71 34 e0 f7 d3 f0 b7          .\.4.Xp..q4..... 
+ 7c e7 0b f2 be ba 55 de 4b 72 84 7f 54 01 39 ba          |.....U.Kr.T.9. 
+ 79 c6 ba ba 44 29 dd da f0 fa 00 9b 66 be d1 55          y...D)......f..U 
+ c9 32 74 02 ba e3 0f f4 bf b5 66 5e c9 47 a4 62          .2t.......f^.G.b 
+ cd 43 07 0f ff a2 54 80 8a 4f a8 f0 67 a7 36 08          .C....T€.O..g.6. 
+ bf 7e 03 bd 65 ab f5 7c a1 91 1e b3 af d9 82 cb          .~..e..|........ 
+ e9 f8 28 6b 05 6e b5 a8 37 0d c3 7e 94 ce 87 f8          ..(k.n..7..~.... 
+ 13 74 f3 fe 4d 1e 40 e7 ff d7 f4 21 51 ad 2c f5          .t..M.@....!Q.,. 
+ c6 e7 65 8b 56 d6 6b 9c 49 28 36 c4 3e 75 98 24          ..e.V.k.I(6.>u.$ 
+ 67 94 3a 57 e7 9e f9 65 a8 11 93 e1 70 bd 5f 8b          g.:W...e....p._. 
+ a3 4a a0 11 1e 3b 79 8d a2 34 b7 e7 de 55 4b 7e          .J...;y..4...UK~ 
+ 50 9a 83 3b 10 a7 5e 4d 57 99 43 1d 78 6c 1f f5          P..;..^MW.C.xl.. 
+ 7f 73 8b 90 ca 13 87 78 aa 26 48 6b a2 ca 7f 88          s.....x.&Hk... 
+ ab b7 15 6f bb d4 7a d2 d3 10 88 c1 38 93 e9 9c          ...o..z.....8... 
+ 3e d6 30 22 7e 30 91 4b 1b 12 1f d9 0a fb 68 5e          >.0"~0.K......h^ 
+ b1 21 9d 94 84 d2 0f 51 1e 66 51 25 e9 8f 5b 26          .!.....Q.fQ%..[& 
+ 56 6e a4 6c 5b 3d f1 6d 26 90 09 13 cc 4f e6 36          Vn.l[=.m&....O.6 
+ cb f1 5d 62 a8 28 66 80 90 a0 ff 88 5a 40 0b b6          ..]b.(f€....Z@.. 
+ 09 26 ef a4 50 57 f8 cf 51 25 59 1b fa d1 17 18          .&..PW..Q%Y..... 
+ 10 d1 8b f8 ca 21 4a 27 e7 75 69 2b 69 ce 98 73          .....!J'.ui+i..s 
+ d8 d6 32 86 d2 29 5c 8b fc ca 21 4f c1 31 1f 8d          ..2..)\...!O.1.. 
+ 76 8a 8c 02 3b 6c d0 a5                                  v...;l.. 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.925422 (Packet Length : 497 bytes) 
+
+***********************TCP Packet*************************
+
+Ethernet Header
+ |-Destination Address : D4-3D-7E-B6-48-8B 
+ |-Source Address      : BC-C8-10-51-CD-81 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 483 Bytes(Size of Packet)
+ |-Identification : 63989
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 1
+ |-More Fragment Field : 0
+ |-TTL : 57
+ |-Protocol : 6
+ |-Checksum : 54884
+ |-Source IP : 145.58.28.175
+ |-Destination IP : 192.168.1.41
+
+TCP Header
+ |-Source Port : 443
+ |-Destination Port : 61664
+ |-Sequence Number : 1815270533
+ |-Acknowledge Number : 100832004
+ |-Header Length : 5 DWORDS or 20 BYTES
+ |-CWR Flag : 0
+ |-ECN Flag : 0
+ |-Urgent Flag : 0
+ |-Acknowledgement Flag : 1
+ |-Push Flag : 1
+ |-Reset Flag : 0
+ |-Synchronise Flag : 0
+ |-Finish Flag : 0
+ |-Window : 840
+ |-Checksum : 51508
+ |-Urgent Pointer : 0
+
+ DATA Dump 
+IP Header
+ 45 00 01 e3 f9 f5 40 00 39 06 d6 64 91 3a 1c af          E.....@.9..d.:.. 
+ c0 a8 01 29                                              ...) 
+
+TCP Header
+ 01 bb f0 e0 6c 32 d4 85 06 02 93 04 50 18 03 48          ....l2......P..H 
+ c9 34 00 00                                              .4.. 
+
+Data Payload
+ 17 03 03 01 b6 9a 4d 90 2b 28 c2 a9 83 05 c7 63          ......M.+(.....c 
+ 57 10 f1 4e fe 98 86 7b 71 56 4d 23 b3 c8 0e 67          W..N...{qVM#...g 
+ c3 93 db 9b c7 b4 11 41 f8 4b c9 e8 83 d4 4f 0c          .......A.K....O. 
+ 99 90 18 8d ad b8 b2 a7 a4 c0 bd ed 04 73 bd bb          .............s.. 
+ 3f 8a 00 ed 89 af 21 ac 9f 78 ac dd 01 79 4e ef          ?.....!..x...yN. 
+ 05 66 e3 f5 e2 2f b8 4c 81 3e 2d fe 44 f5 44 2d          .f.../.L.>-.D.D- 
+ 09 4d 38 9b 16 87 24 13 58 04 46 0a 76 80 74 1f          .M8...$.X.F.v€t. 
+ 01 43 35 0c 10 0f ee c2 07 75 78 ef 7c 2f 20 7b          .C5......ux.|/ { 
+ ed 08 13 cc bc 10 36 c7 9a e3 90 f1 a1 0d f0 b7          ......6......... 
+ 07 f9 79 fb 2d 5f 12 e8 4b 7a 8c f4 c2 5d ec b8          ..y.-_..Kz...].. 
+ f6 88 7b 2d 98 15 d7 75 e5 b2 16 02 5d ba 08 0a          ..{-...u....]... 
+ f1 99 1f d4 ee 3e 96 9b be 42 43 7d ad cc d8 e3          .....>...BC}.... 
+ 36 77 8a ba de e8 86 5d 85 3f a7 31 5a c6 90 fc          6w.....].?.1Z... 
+ 4a 6b 1e be e9 3b 7d 78 c1 ba 17 39 b1 f0 07 f0          Jk...;}x...9.... 
+ 6d 88 5b a3 0a 44 78 9f 10 7b d2 b3 76 67 ff df          m.[..Dx..{..vg.. 
+ b4 87 0e e9 6c 08 89 19 dd 78 f2 f0 6a a7 af 8b          ....l....x..j... 
+ 3f 5a 12 66 a4 da 64 6b ac d0 c3 a6 a4 f0 50 c0          ?Z.f..dk......P. 
+ 08 c9 45 e5 36 71 ae f8 dc a8 2d eb 5f fe 57 bc          ..E.6q....-._.W. 
+ 59 b6 c8 2f 4e 76 a4 85 1b 2c ae 8d 82 98 72 7e          Y../Nv...,....r~ 
+ 64 42 e4 85 82 c7 e2 26 51 29 74 45 92 2d ff 09          dB.....&Q)tE.-.. 
+ 47 b1 1d 98 8f 93 16 76 f8 17 c9 93 0c 8b 29 00          G......v......). 
+ 7f 7b 84 3a 64 4b 37 77 b6 36 5b 3e ae c9 cd de          {.:dK7w.6[>.... 
+ 8a da 4c 6c f8 21 1c 2b 62 12 4b de 6f 3b 13 5e          ..Ll.!.+b.K.o;.^ 
+ c3 89 ac 3b 94 b6 b0 64 63 f2 7c 32 3a 00 46 32          ...;...dc.|2:.F2 
+ fe c2 00 c3 8c 67 1a 63 e9 80 25 06 46 5c 20 e7          .....g.c.€%.F\ . 
+ 6d a4 7e d3 05 87 3e c3 3c fa 0e 9d 30 38 b1 55          m.~...>.<...08.U 
+ b5 91 de 44 6f 5a ec ff 31 ff 85 0f 45 c1 90 50          ...DoZ..1...E..P 
+ 35 1d d8 54 ce 01 52 f9 63 c8 5f                         5..T..R.c._ 
+
+
+###########################################################
+
+Next Packet : 17-Jan-2018 12:00:31 AM.964894 (Packet Length : 54 bytes) 
+
+***********************TCP Packet*************************
+
+Ethernet Header
+ |-Destination Address : BC-C8-10-51-CD-81 
+ |-Source Address      : D4-3D-7E-B6-48-8B 
+ |-Protocol            : 0x0800 
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 40 Bytes(Size of Packet)
+ |-Identification : 5284
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 1
+ |-More Fragment Field : 0
+ |-TTL : 128
+ |-Protocol : 6
+ |-Checksum : 0
+ |-Source IP : 192.168.1.41
+ |-Destination IP : 145.58.28.175
+
+TCP Header
+ |-Source Port : 61664
+ |-Destination Port : 443
+ |-Sequence Number : 100832004
+ |-Acknowledge Number : 1815270976
+ |-Header Length : 5 DWORDS or 20 BYTES
+ |-CWR Flag : 0
+ |-ECN Flag : 0
+ |-Urgent Flag : 0
+ |-Acknowledgement Flag : 1
+ |-Push Flag : 0
+ |-Reset Flag : 0
+ |-Synchronise Flag : 0
+ |-Finish Flag : 0
+ |-Window : 256
+ |-Checksum : 28629
+ |-Urgent Pointer : 0
+
+ DATA Dump 
+IP Header
+ 45 00 00 28 14 a4 40 00 80 06 00 00 c0 a8 01 29          E..(..@.€......) 
+ 91 3a 1c af                                              .:.. 
+
+TCP Header
+ f0 e0 01 bb 06 02 93 04 6c 32 d6 40 50 10 01 00          ........l2.@P... 
+ 6f d5 00 00                                              o... 
+
+Data Payload
+
+
+###########################################################
